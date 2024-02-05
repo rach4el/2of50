@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f7fb;
+    font-family: 'Open sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.progress-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: bottom;
+    max-width: 100%;
+    width: 500px;
+}
+
+.progress {
+    background-color: #3498db;
+    position: absolute;
+    top: 50%
+    left: 0;
+    transform: translateY(50%)
+    height: 8px;
+    width: 50%;
+    z-index: -1;
+    transition: 
+}
