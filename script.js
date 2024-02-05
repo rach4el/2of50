@@ -33,4 +33,8 @@ function update() {
             circle.classList.remove('active')
         }
     })
+
+    const actives = document.querySelectorAll('.active')
+
+    progress.style.width = (actives,length / circles.length) * 100 + '%'
 }
